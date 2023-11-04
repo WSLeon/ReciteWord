@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/project/android/cangku/ReciteWord/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.193" />
         <entry key="..\:/project/android/cangku/ReciteWord/app/src/main/res/drawable-v24/rounded_button.xml" value="0.2585" />
         <entry key="..\:/project/android/cangku/ReciteWord/app/src/main/res/drawable/circle.xml" value="0.2145" />
+        <entry key="..\:/project/android/cangku/ReciteWord/app/src/main/res/drawable/ic_launcher_background.xml" value="0.193" />
         <entry key="..\:/project/android/cangku/ReciteWord/app/src/main/res/drawable/round_face.xml" value="0.193" />
         <entry key="..\:/project/android/cangku/ReciteWord/app/src/main/res/drawable/round_frame.xml" value="0.2585" />
         <entry key="..\:/project/android/cangku/ReciteWord/app/src/main/res/layout/activity_fail.xml" value="0.18489583333333334" />
