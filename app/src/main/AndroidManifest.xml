@@ -13,7 +13,6 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="词汇星"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ReciteWord">
         <activity android:name=".failActivity"></activity>
