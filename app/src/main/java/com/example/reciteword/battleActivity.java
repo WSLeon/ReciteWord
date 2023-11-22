@@ -71,9 +71,11 @@ public class battleActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(myScore >= fullScore && youScore <= fullScore){
+                    finish();
                     Intent intent = new Intent(battleActivity.this,successActivity.class);
                     startActivity(intent);
                 }else if(myScore <= fullScore && youScore >= fullScore){
+                    finish();
                     Intent intent = new Intent(battleActivity.this,failActivity.class);
                     startActivity(intent);
                 }
@@ -155,6 +157,12 @@ public class battleActivity extends AppCompatActivity {
         wordFightText.setText(word);
         user1Score.setText("得分:"+myScore);
         user2Score.setText("得分:"+youScore);
+    }
+    @Override
+    public void onBackPressed() {
+        finish();
+        Intent intent = new Intent(battleActivity.this,InterfaceActivity.class);
+        startActivity(intent);
     }
     private static int getNum(int endNum){
         if(endNum > 0){

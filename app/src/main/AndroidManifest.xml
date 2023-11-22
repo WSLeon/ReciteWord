@@ -20,7 +20,10 @@
         <activity android:name=".successActivity" />
         <activity android:name=".battleActivity" />
         <activity android:name=".InterfaceActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".BotActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

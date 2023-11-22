@@ -41,6 +41,7 @@ public class reciteFragment extends Fragment {
         SharedPreferences.Editor editor = sharedPre.edit();
 
         wordText.setText(Data.getWord(Data.getRandNum()));
+        System.out.println(Data.getWord(Data.getRandNum()));
         definitionText.setText("");
         final int[] wrongNum = {sharedPre.getInt("wrongNum", 0)};
         int cnt = sharedPre.getInt("word"+Data.getRandNum(),0);
@@ -52,6 +53,7 @@ public class reciteFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Data.setRandNum();
+                System.out.println(Data.getWord(Data.getRandNum()));
                 definitionText.setText("");
                 int cnt = sharedPre.getInt("word"+Data.getRandNum(),0);
                 cnt++;

@@ -23,5 +23,9 @@
         android:id="@+id/navigation_wrong"
         android:name="com.example.reciteword.wrongFragment"
         tools:layout="@layout/fragment_wrong"/>
+    <fragment
+        android:id="@+id/navigation_bot"
+        android:name="com.example.reciteword.botFragment"
+        tools:layout="@layout/fragment_bot"/>
 
 </navigation>

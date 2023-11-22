@@ -21,6 +21,7 @@ public class failActivity extends AppCompatActivity {
         }
         TimerTask task = new TimerTask(){
             public void run(){
+                finish();
                 Intent intent = new Intent(failActivity.this,InterfaceActivity.class);
                 startActivity(intent);
             }

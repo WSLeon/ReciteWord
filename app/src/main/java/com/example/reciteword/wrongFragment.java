@@ -44,5 +44,6 @@ public class wrongFragment extends Fragment {
         WordAdapter adapter = new WordAdapter(getActivity(),R.layout.word_item,wordList);
         ListView listView = (ListView) getActivity().findViewById(R.id.wrong_list_view);
         listView.setAdapter(adapter);
+        System.out.println("onActivityCreated的使用");
     }
 }
